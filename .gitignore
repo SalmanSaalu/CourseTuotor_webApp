@@ -1,0 +1,30 @@
+
+# Python virtual environments
+BeginTheToutorv1/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Django generated files
+staticfiles/
+media/
+
+# React dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
