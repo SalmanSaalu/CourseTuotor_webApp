@@ -1,0 +1,26 @@
+.courseName{
+    height: 10rem;
+    width: 15rem;
+    margin-left: -12px;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: Lora;
+}
+
+.coursecategDetailDiv{
+    background-color: white;
+    margin-left: -12px;
+    padding-left: 1rem;
+    width: 15rem;
+    padding-top: 2rem;
+}
+
+.enrollButton{
+    font-family: "Poltawski Nowy";
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+    background-color: #cdf1cd;
+    color: green;
+}

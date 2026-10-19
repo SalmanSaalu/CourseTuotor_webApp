@@ -1,0 +1,60 @@
+
+.headForRegister{
+    font-family:Archivo;
+    margin-top: 3rem;
+}
+
+.coursename{
+    font-family: 'Poltawski Nowy';
+    font-weight: 600;
+    font-size: 21px;
+    color: #db9716;
+}
+
+.coursetype{
+    font-family: Lora;
+    color: grey;
+}
+
+.others{
+    font-family: Rokkitt;
+    font-size: 19px;
+}
+
+
+/* .secondSmallDiv{
+    padding-top: 5rem !important;
+} */
+
+@media only screen and (max-width: 768px) {
+
+    .secondSmallDiv{
+        padding-top: 0rem !important;
+    }
+
+}
+
+
+.AddedByyou{
+    background-color: grey;
+    padding-left: 15px;
+    color: white;
+    font-family: Rokkitt;
+    width: 50%;
+}
+
+.enrollClass{
+    border: 0px;
+    width: 50%;
+    font-family: Rokkitt;
+    background-color: #ff5200;
+    color: white;
+}
+
+.alreadyEnrolled{
+    background-color: rgb(25, 169, 162);
+    padding-left: 15px;
+    color: white;
+    font-family: Rokkitt;
+    width: 50%;
+}

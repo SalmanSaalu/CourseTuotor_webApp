@@ -1,0 +1,47 @@
+.headPayment{
+    font-size: 54px;
+    font-family: "Ysabeau Infant";
+}
+
+.paymentContent{
+    color: grey;
+    font-family: Lora;
+    font-size: 17px;
+    margin-top: 3rem;
+}
+
+.paymentBtn{
+    background-color: #f9a100;
+    color: black;
+    border: 0px;
+    font-family: auto;
+    font-weight: 700;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.premiumWord{
+    background-color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.imagePremium{
+
+    margin-top: 6rem;
+   
+    margin-bottom: 2rem;
+
+}
+
+
+.supportedPayments{
+    width: 57%;
+    float: right;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,97 @@
+.optionButton{
+    width: 55px;
+    height: 50px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 55px;
+    height: 50px;
+    border: 3px solid #ff9707;
+    background-color: #ffa703;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.optionDiv{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align:center;
+    font-family: Lora;
+}
+
+.optionButton:hover{
+    border: 3px solid #1a6bfe;
+    background-color: #03a7ff;
+}
+
+.headForRegister{
+    font-family:Archivo;
+    margin-top: 3rem;
+}
+
+.inputRegister{
+    width :90%;
+    margin-top: 5px;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: Lora;
+    color: grey;
+}
+
+.labelRegister{
+    margin-top: 1rem;
+    font-family: Lora;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+input[type=checkbox]{
+    margin-left: 10px;
+}
+
+.submit{
+    background-color: #515166;
+    color: white;
+    margin-left: 3rem;
+    font-family: Lora;
+    border: 0px;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-top: 2rem;
+    height: 2rem;
+    margin-bottom: 4rem;
+}
+
+.errorMessage{
+    color: red;
+    background-color: #e6b6b6;
+    padding: 8px;
+    font-family: math;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 97%;
+}
+
+
+.confirmMessage{
+    background-color: #63c663;
+    color: white;
+    padding: 8px;
+    font-family: math;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 97%;
+}
+

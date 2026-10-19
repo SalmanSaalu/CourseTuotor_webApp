@@ -1,0 +1,39 @@
+.firstInnerDiv{
+    margin-top: 50px;
+}
+
+.firstText{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.secondText{
+    color: grey;
+    font-family: math;
+    font-size: 14px;
+}
+
+.SpecialityDiv{
+    border-right: 2px solid white;
+
+}
+
+.thirdSubInnerDiv{
+    width: 10rem;
+}
+
+@media only screen and (max-width: 584px) {
+    .firstSubInnerDiv{
+    
+    display:grid !important;
+    }
+
+    .secondSubInnerDiv{
+        width: 300px;
+    }
+
+    .thirdSubInnerDiv{
+        width:287px;
+    }
+  }
+

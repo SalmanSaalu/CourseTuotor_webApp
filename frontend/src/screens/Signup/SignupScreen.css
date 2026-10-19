@@ -1,0 +1,77 @@
+.buttons{
+    margin-top: 2rem;
+    font-size: 13px;
+    font-family: Lora;
+    width: 50%;
+    color: white;
+    background-color: #2d6dc2;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.checkbox{
+    width: 17px;
+    height: 15px;
+}
+
+.rightText{
+
+    padding: 4rem;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 7rem;
+    color: white;
+}
+
+
+.img{
+    height: 31rem;
+    margin-top: 10px;
+    border-radius: 23px;
+}
+
+@media only screen and (max-width: 607px) {
+
+    .img{
+        height: 41rem !important;
+
+    }}
+
+
+.error{
+        color: red;
+        font-family: monospace;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 13px;
+        width: 60%;
+        text-align: center;
+        background-color: #f9caca;
+        margin-top: 20px;
+    }
+
+
+.success{
+        color: green;
+        font-family: monospace;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 13px;
+        width: 60%;
+        text-align: center;
+        background-color: #cef9ca;
+        margin-top: 20px;
+    }
+
+.emptyMessage{
+    margin-left: 25px;
+    font-family: monospace;
+    font-size: 13px;
+    padding-top: 6px;
+    color: red;
+}

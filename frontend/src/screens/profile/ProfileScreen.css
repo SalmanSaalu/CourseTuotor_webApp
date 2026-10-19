@@ -1,0 +1,409 @@
+/* for profiledetail page */
+.imgProfile{
+    width: 18rem;
+    height: 14rem;
+    margin-left:58px;
+    margin-top: 30px;
+}
+
+.personalData{
+    padding-left: 4.2rem;
+    padding-top: 25px;
+    font-family: Lora;
+}
+
+.student{
+    margin-top: -17px;
+    color: #2c9f8c;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.rightDetails{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 1.5rem;
+}
+
+.name{
+    font-size: 35px;
+    font-family: 'Lora';
+    color:rgb(17, 154, 156);
+}
+
+.about{
+    
+    font-family: auto;
+    color: grey;
+    font-size: 14px;
+}
+
+.currently{
+    margin-top: -11px;
+    font-family: math;
+    margin-top: 2rem;
+}
+
+
+.achieveLogo{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 607px) {
+
+    .img{
+        height: 14rem !important;
+
+    }
+}
+
+.achievement{
+    font-family: 'Lora';
+    font-size: 14px;
+    color: #ffa02e;
+}
+
+
+.hiddenAchieve{
+    position: absolute;
+    z-index: 2;
+    display: none;
+    height:auto;
+    margin-top: 5rem;
+    height: 18rem;
+    width: 20rem;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.achieveLogo:hover  .hiddenAchieve{
+        display: block; 
+}
+
+
+
+
+.hiddenAchieveName{
+    height: 5rem;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Lora;
+    font-size: 18px;
+}
+
+
+.hiddenAchieveStatus{
+    font-family: math;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.percent{
+    margin-top: -18px;
+    color: green;
+}
+
+.options{
+    border: 0px;
+    font-size: 16px;
+    font-family: initial;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#course{
+    background-color:white;
+    width:100%;
+    display: block;
+}
+
+#education{
+    background-color:green;
+    height:6rem;
+    width:100%;
+    display:none
+}
+
+#certificate{
+    background-color:blue;
+    height:6rem;
+    width:100%;
+    display:none
+}
+
+#user{
+    display: none;
+}
+
+.courseDetail{
+    padding: 10px;
+    padding-top: 2rem;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 22px
+}
+
+.react-multi-carousel-item{
+    margin-top: 2rem;
+}
+
+/* for register profile page */
+
+.labels{
+margin-top: 10px;
+font-family: math;
+}
+
+.inputTypes{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid orange;
+    border-radius: 6px;
+    font-family: math;
+    padding: 5px;
+}
+
+.inputTypes[type=text]:focus{
+    border: 2px solid green;
+    outline:navy;
+    height: 40px;
+}
+.inputTypes[type=date]:focus{
+    border: 2px solid green;
+    outline:navy;
+    height: 40px;
+}
+
+
+.firstRow{
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+    margin-top: 5rem !important;
+}
+
+.positionGender{
+    margin-right: 3.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .firstRow{
+        margin-left: 0rem !important;
+
+    }
+    .inputTypes{
+        width: 100%;
+    }
+    .positionGender{
+        margin-right: 0rem;
+    }
+}
+
+.head{
+    font-family: 'Ysabeau Infant';
+    margin-left: 0rem;
+    color: #7878b4;
+    font-size: 35px;
+    text-align: center;
+}
+
+.subHead{
+    font-family: 'Inclusive Sans';
+}
+
+.plus{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 3rem;
+    height: 2rem;
+    padding-bottom: 7px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px grey;
+    color: grey;
+}
+
+.delete{
+    height: 2rem;
+    border: 0px;
+    box-shadow: 2px 2px 5px 0px;
+    width: 3rem;
+    padding-bottom: 10px;
+    margin-right: 7px;
+    border-radius: 10px;
+    color: grey;
+}
+.eduDetails{
+    padding: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2ox solid blue;
+    box-shadow: 0px 0px 8px -1px grey;
+
+    padding-bottom: 2rem;
+    border-radius: 16px;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+
+
+.react-multi-carousel-dot-list{
+    padding-bottom: 10px;
+}
+
+.react-multi-carousel-track{
+    height: 25rem;
+}
+
+.messageForTab{
+    color: red;
+    font-family: 'Ysabeau Infant';
+    font-size: 16px;
+}
+
+.lastCheckbox{
+    font-family: Algeraya;
+    margin-top: 16px;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.proceed{
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Inclusive Sans';
+    font-size: 20px;
+    width: 19%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 5px 0px grey;
+    margin-bottom: 5rem;
+}
+
+.picIconDiv{
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #ababab;
+}
+
+#file{
+    display: none;
+}
+
+.submitButton{
+    margin-top: 2rem;
+    width: 7rem;
+    border: 0px;
+    color: white;
+    font-family: 'Lora';
+    background-color: orange;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.messageForRegisterCourse{
+    background-color: #c7ffc7;
+    font-family: monospace;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+.messageForfillingCourse{
+    background-color: #ff9e9e;
+    font-family: monospace;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+.Edit{
+    float: right;
+    margin-right: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.confirmqstn{
+    font-size: 26px;
+    text-align: center;
+    font-family: Oswald;
+}
+
+.confirmBoxbtn{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 0px;
+    width: 8rem;
+    height: 2rem;
+    font-family: Oswald;
+    cursor: pointer;
+}
+
+.confirmBoxbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.deleteBtn{
+   background-color:#ef9292
+}
+
+.deleteBtn:hover{
+    background-color: black;
+}
+

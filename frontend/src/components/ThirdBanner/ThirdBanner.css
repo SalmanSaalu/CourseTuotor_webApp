@@ -1,0 +1,75 @@
+/* .react-multi-carousel-list{
+    margin-top: 5rem;
+} */
+
+.captionForCourses{
+    text-align: left;
+    font-family: Lora;
+    font-size: 14px;
+}
+
+.subHeadContent{
+    font-family: math;
+    font-size: 14px;
+    color: grey;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 14px;
+}
+
+@media only screen and (max-width: 975px) {
+
+    .expertTutors{
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .expertTutorContainer{
+        display:inline !important;
+    }
+    .expertTutorspic{
+        width: 100% !important;
+        text-align: center !important;
+        display: inline !important;
+
+    }
+    .innerImage{
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+    }
+
+  }
+
+.expertTutorContainer{
+    display:flex
+}
+
+.expertTutors{
+    width:50%
+}
+
+.expertTutorspic{
+    width: 50%;
+    background-size: cover;
+}
+
+.innerImage{
+    background-size: cover;
+
+}
+
+
+.topCourse{
+    margin-right: auto;
+}
+
+@media screen and (max-width: 766px){
+    .topCourse{
+        margin-right:0px !important ;
+    }
+    .AlltopCourse{
+        padding-left: 0px !important;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,123 @@
+.talk-bubble {
+	/* margin-left: 40px;
+	margin-right: 40px; */
+	/* margin-top: 5px; */
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: rgb(6, 77, 114);
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+
+.tri-right.border.right-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: rgb(6, 77, 114) transparent transparent rgb(6, 77, 114);
+    
+}
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+
+
+.tri-right.border.left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: rgb(6, 77, 114) rgb(6, 77, 114) transparent transparent;
+}
+
+.message{
+    color: white;
+    font-family: 'Rokkitt';
+}
+
+.date{
+    float: right;
+    color: white;
+    font-size: 10px;
+    margin-right: 2rem;
+    font-family: ui-monospace;
+}
+
+.teacherName{
+	font-family: 'Rokkitt';
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: #f3f3f3;
+	font-size: 25px;
+}
+
+.message{
+	width: 75%;
+	height: 40px;
+	padding: 10px;
+}
+
+.allMessage{
+
+	overflow-x: hidden;
+	overflow-y:scroll;
+	height: 32rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
