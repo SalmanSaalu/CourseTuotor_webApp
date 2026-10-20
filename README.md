@@ -4,8 +4,7 @@ CourseTutor is a full-stack web application that connects teachers and students 
 
 ## 🔗 Project Links
 
-- **Demo Video:** [Watch CourseTutor Demo](YOUR_YOUTUBE_LINK)
-- **Project Documents:** [View Project Documentation](YOUR_GOOGLE_DRIVE_LINK)
+- **Demo Video:** [Watch CourseTutor Demo](https://youtu.be/GmdO2F0NVgA)
 
 The demo video provides a walkthrough of the application's features and workflow. The project documents contain additional information related to the project.
 
